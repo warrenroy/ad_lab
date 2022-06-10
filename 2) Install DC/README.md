@@ -13,3 +13,11 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
 
 4. Install AD Forest
+
+```
+Import-Module ADDSDeployment
+```
+
+```
+Install-ADDSForest
+```
